@@ -19,7 +19,7 @@ This project demonstrates an end-to-end AI pipeline for **real-time conversation
 
 ## 🛠️ Tech Stack
 
-* **Python**
+* **Python**  
 * **Streamlit** – Interactive UI  
 * **Google Gemini API** – LLM-based response generation  
 * **python-dotenv** – Secure environment variable management  
@@ -36,55 +36,58 @@ This project demonstrates an end-to-end AI pipeline for **real-time conversation
 
 ## ⚙️ Installation & Setup
 
-```bash
-git clone https://github.com/Anjiembadi/ai-research-assistant.git
-cd ai-research-assistant
-python -m venv venv
-venv\Scripts\activate   # Windows
-pip install -r requirements.txt
-```
+git clone https://github.com/Anjiembadi/ai-research-assistant.git  
+cd ai-research-assistant  
+python -m venv venv  
+venv\Scripts\activate   # Windows  
+pip install -r requirements.txt  
+
+---
+
 ## ⚙️ Usage & Details
 
 ### 🔑 Environment Configuration
-Create a `.env` file in the root directory:
+Create a `.env` file in the root directory:  
+GEMINI_API_KEY=your_api_key_here  
 
-```env
-GEMINI_API_KEY=your_api_key_here
-```
+### ▶️ Run the Application
+streamlit run app.py  
 
-## ▶️ Run the Application
-```
-streamlit run app.py
-```
-## 🧠 System Workflow
-- Accept user research query from input box
-- Process input using Streamlit
-- Send query to Gemini API
-- Apply prompt-based LLM processing
-- Generate context-aware response
-- Display response in UI
+### 🧠 System Workflow
+- Accept user research query from input box  
+- Process input using Streamlit  
+- Send query to Gemini API  
+- Apply prompt-based LLM processing  
+- Generate context-aware response  
+- Display response in UI  
 
-## 📂 Output
-- Real-time generated responses displayed in UI
-- Interactive conversational output
+### 📂 Output
+- Real-time generated responses displayed in UI  
+- Interactive conversational output  
 
-## 🎯 Use Cases
-- AI/ML learning assistant
-- Quick concept understanding
-- Research support tool
-- Interview preparation
-- Knowledge exploration
-* 🔮 Future Enhancements
-* 🗂️ Chat history memory
-* 📄 RAG-based document Q&A
-* 🌍 Multi-language support
-* 🔊 Voice-based assistant
-* 📊 Usage analytics
+### 🎯 Use Cases
+- AI/ML learning assistant  
+- Quick concept understanding  
+- Research support tool  
+- Interview preparation  
+- Knowledge exploration  
+
+### 🔮 Future Enhancements
+- 🗂️ Chat history memory  
+- 📄 RAG-based document Q&A  
+- 🌍 Multi-language support  
+- 🔊 Voice-based assistant  
+- 📊 Usage analytics  
+
+---
 
 ## 👨‍💻 Author
-- Embadi Anji
-- GitHub: https://github.com/Anjiembadi
+
+**Embadi Anji**  
+GitHub: https://github.com/Anjiembadi  
+
+---
 
 ## ⭐ Support
 
-- If you found this project useful, consider giving it a star ⭐ on GitHub!
+If you found this project useful, consider giving it a ⭐ on GitHub!
